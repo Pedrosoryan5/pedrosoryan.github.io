@@ -1,0 +1,23 @@
+body {
+    
+    overflow: hidden;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+  }
+  /* CSS */
+.typewriter-text {
+  overflow: hidden; /* Ensure the text is hidden initially */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typewriter 4s steps(40) infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0; /* Start with no width */
+  }
+  to {
+    width: 100%; /* Gradually increase width to cover the whole text */
+  }
+}
+
